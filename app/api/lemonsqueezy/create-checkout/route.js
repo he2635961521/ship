@@ -3,7 +3,7 @@ import connectMongo from "@/libs/mongoose";
 import { authOptions } from "@/libs/next-auth";
 import User from "@/models/User";
 import { getServerSession } from "next-auth/next";
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
 // This function is used to create a Lemon Squeezy Checkout Session (one-time payment or subscription)
 // It's called by the <ButtonCheckout /> component

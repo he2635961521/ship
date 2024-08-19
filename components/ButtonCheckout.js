@@ -13,7 +13,7 @@ const ButtonCheckout = ({ variantId }) => {
     setIsLoading(true);
 
     try {
-      const { url }: { url: string } = await apiClient.post(
+      const { url } = await apiClient.post(
         "/lemonsqueezy/create-checkout",
         {
           variantId,
