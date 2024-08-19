@@ -10,7 +10,7 @@ const getBase64 = (img, callback) => {
 };
 
 const beforeUpload = (file) => {
-  const isJpgOrPng = file.type === 'video/mov' || 'video/quicktime';
+  const isJpgOrPng = file.type === 'video/mov' || file.type === 'video/quicktime';
   if (isJpgOrPng) {
     message.error('You can not upload video/mov file!');
   }

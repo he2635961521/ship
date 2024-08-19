@@ -1,8 +1,8 @@
 import React from 'react';
 import ButtonSignin from "@/components/ButtonSignin";
 import { Tabs } from 'antd';
-import AddImage from '../../myc/add-image';
-import AddVideo from '../../myc/add-vedio';
+import AddImage from '@/components/add-image';
+import AddVideo from '@/components/add-vedio';
 
 export default function ImageToFace() {
   const tabItems = [
