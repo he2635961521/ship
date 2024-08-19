@@ -1,0 +1,41 @@
+.ant-tabs-nav-wrap {
+  flex: none !important;
+}
+
+.ant-tabs {
+  width: 100% !important;
+}
+
+.ant-tabs-nav-wrap {
+  margin: 0 auto !important;
+}
+
+.ant-tabs-tab {
+  margin: 0 50px !important;
+}
+
+.ant-tabs-tab-btn {
+  color: black !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-disabled .ant-tabs-tab-btn {
+  color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.ant-tabs-ink-bar {
+  background-color: black !important;
+}
+
+.ant-tabs-tabpane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h-14 {
+  height: 3.15rem !important;
+}
+
+.mt-4 {
+  margin-top: 1rem !important;
+}
