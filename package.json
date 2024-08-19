@@ -15,6 +15,7 @@
 		"@headlessui/react": "^1.7.18",
 		"@lemonsqueezy/lemonsqueezy.js": "^3.2.0",
 		"ahooks": "^3.8.1",
+		"antd": "^5.20.1",
 		"axios": "^1.6.8",
 		"crisp-sdk-web": "^1.0.22",
 		"eslint": "8.47.0",
